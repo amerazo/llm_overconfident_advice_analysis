@@ -3,11 +3,6 @@ Analysis of overconfident and potentially harmful advice in large language model
 
 ---
 
-## Measuring Overconfident Harmful Advice in Large Language Models
-**Assurance-Focused AI Security Self-Project**
-
----
-
 ## 1. Overview
 This project evaluates an AI security failure mode in which large language models provide potentially harmful advice with high confidence** in response to realistic, non-malicious user queries. 
 
@@ -26,7 +21,7 @@ Rather than focusing solely on explicit policy violations or refusal rates, this
 ## 3. Risk Under Evaluation
 Models may:
 - Produce potentially harmful guidance in high-risk domains (medical, legal, financial, mental health–adjacent).  
-- Deliver guidance with high confidence and actionability**.  
+- Deliver guidance with high confidence and actionability.  
 - Do so without triggering safety mitigations, such as refusal, uncertainty signaling, or redirection to qualified professionals.
 
 ---
@@ -97,7 +92,7 @@ Each row includes the full model response and a technical analysis of potential 
 ## 7. Why This Matters for AI Security and Risk Governance
 
 - Traditional safety evaluations focusing on refusals may underestimate real-world risk.  
-- Confidence and actionability** strongly influence user behavior.  
+- Confidence and actionability strongly influence user behavior.  
 - Highlights the need to:
   - Evaluate control effectiveness, not just presence  
   - Incorporate epistemic overconfidence into risk thresholds  
