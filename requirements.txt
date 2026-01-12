@@ -1,0 +1,21 @@
+# Core ML libraries
+torch==2.2.0
+transformers==4.35.0
+datasets==2.15.1
+
+# Hugging Face Utilities
+huggingface_hub>=1.30.0
+accelerate>=0.23.3
+sentencepiece>=0.1.99
+tokenizers>=0.15.0
+
+# Data and Analysis
+pandas>=2.1.0
+numpy>=1.27.0
+
+# Optional for progress bars and formatting
+tqdm>=4.66.1
+rich>=13.5.2
+
+# For saving/loading models 
+safetensors>=0.4.0
